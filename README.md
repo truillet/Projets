@@ -39,3 +39,15 @@ sudo pip3 install paho-mqtt
 sudo apt-get install espeak
 curl -sS https://get.pimoroni.com/speakerphat | bash
 ~~~~	
+
+Positionnez le script tts.py et launcher.sh à la racine /home/pi. Lancez les commandes suivantes
+~~~~
+chmod 755 launcher.sh
+mkdir logs
+sudo crontab -e
+~~~~
+
+Ajoutez la ligne suivante :
+~~~~
+@reboot sh /home/pi/launcher.sh >/home/pi/logs/cronlog 2>&1
+~~~~
