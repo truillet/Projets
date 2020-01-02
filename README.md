@@ -18,4 +18,9 @@ sudo /etc/init.d/ntp start
 ~~~~	
 
 ### UPSSIFOX : un renard qui parle 
+Pour ce projet, il vous faudra
+* un raspberry pi zero W ([lien ici](https://shop.pimoroni.com/products/raspberry-pi-zero-wh-with-pre-soldered-header)) équipé de hauts-parleurs (comme le [pHAT Speaker](https://shop.pimoroni.com/products/speaker-phat))
+* une batterie (comme celle-là)
+* et un peu de logiciel (voir plus bas)
+
 
