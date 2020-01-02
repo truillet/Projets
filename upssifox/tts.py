@@ -8,12 +8,17 @@ import os
 
 ############
 def on_message(client, userdata, message):
-    print("message received " ,str(message.payload.decode("utf-8")))
-    # print("message topic=",message.topic)
-    os.system("espeak -vfr \"" + str(message.payload.decode("utf-8")) + "\" 2>/dev/null") # use external tool
-    client.publish("/renard/feedback", "tts done")
+#    print("message received " ,str(message.payload.decode("utf-8")))
+#    print("message topic=",message.topic)
 
-
+# suivant le topic
+    if (message.topic == "/renard/tts"):
+        os.system("espeak -vfr \"" + str(message.payload.decode("utf-8")) + "\" 2>/dev/null") # use external tool      
+	client.publish("/renard/feedback", "tts done")
+    elif (message.topic == "/renard/wav"):
+        os.system("aplay ./sounds/" + str(message.payload.decode("utf-8")) + ".wav")
+        client.publish("/renard/feedback", "wav done")
+	
 ########################################
 broker_address="localhost"
 
