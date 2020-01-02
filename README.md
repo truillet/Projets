@@ -40,7 +40,7 @@ sudo apt-get install espeak
 curl -sS https://get.pimoroni.com/speakerphat | bash
 ~~~~	
 
-Positionnez le script tts.py et launcher.sh à la racine /home/pi. Lancez les commandes suivantes
+Positionnez le script [tts.py](https://github.com/truillet/Projets/blob/master/upssifox/tts.py) et [launcher.sh](https://github.com/truillet/Projets/blob/master/upssifox/launcher.sh) à la racine /home/pi. Lancez les commandes suivantes
 ~~~~
 chmod 755 launcher.sh
 mkdir logs
