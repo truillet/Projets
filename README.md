@@ -24,3 +24,18 @@ Pour ce projet, il vous faudra :
 * un peu de codage (voir plus bas)
 * et une peluche ;) (par exemple, [celle là](https://www.amazon.fr/gp/product/B07QW1RC56/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1))
 
+Installez tout d'abord sur une carte sd une distribution raspbian (par exemple [Buster](https://www.raspberrypi.org/downloads))
+Procédez ensuite à l'installation de :
+* RaspAP (hotspot wifi)
+* mosquitto (broker MQTT)
+* librairie paho-mqtt pour moquitto
+* espeak (tts)
+* la librairie speakerphat
+
+~~~~
+curl -sL https://install.raspap.com | bash
+sudo apt-get install mosquitto 
+sudo pip3 install paho-mqtt 
+sudo apt-get install espeak
+curl -sS https://get.pimoroni.com/speakerphat | bash
+~~~~	
