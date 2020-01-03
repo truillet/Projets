@@ -13,7 +13,7 @@ def on_message(client, userdata, message):
 
 # suivant le topic
     if (message.topic == "/renard/tts"):
-        os.system("espeak -vfr \"" + str(message.payload.decode("utf-8")) + "\" 2>/dev/null") # use external tool      
+        os.system("espeak -vfr -s140 \"" + str(message.payload.decode("utf-8")) + "\" 2>/dev/null") # use external tool      
 	client.publish("/renard/feedback", "tts done")
     elif (message.topic == "/renard/wav"):
         os.system("aplay ./sounds/" + str(message.payload.decode("utf-8")) + ".wav")
