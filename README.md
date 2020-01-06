@@ -52,7 +52,7 @@ Ajoutez la ligne suivante :
 @reboot sh /home/pi/launcher.sh >/home/pi/logs/cronlog 2>&1
 ~~~~
 
-### Minitel : un rasperry commandé depuis un minitel (clavier et écran)
+### Minitel : un raspberry commandé depuis un minitel (clavier et écran)
 Pour ce projet, il vous faudra : 
 * un minitel (1B ou 2) équipé d'une prise DIN à l'arrière
 * un peu d'électronique et de soudure
