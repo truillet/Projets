@@ -11,7 +11,7 @@ Préparez le câble entre le minitel et le raspberry (cf. schema ci dessous).
 
 <img src="https://github.com/truillet/Projets/blob/master/minitel/schemas/schema_minitel_rpi.png" width="400" alt="montage du cable Minitel / GPIO">
 
-Soudez les 3 fils pour le minitel à une prise DIN 5 broches etbranchez les broches 4 (5v), 6 (GND), 8 (TX) et 10 (RX) sur le raspberry.
+Soudez les 3 fils pour le minitel à une prise DIN 5 broches et branchez les broches 4 (5v), 6 (GND), 8 (TX) et 10 (RX) sur le raspberry.
 
 <img src="https://github.com/truillet/Projets/blob/master/minitel/schemas/GPIO_RPi.jpg" width="400" alt="GPIO Raspberry">
 
