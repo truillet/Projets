@@ -18,6 +18,4 @@ sudo /etc/init.d/ntp start
 ~~~~	
 
 
-o
-
 
