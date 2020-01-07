@@ -9,4 +9,4 @@ Installez tout d'abord sur une carte sd une distribution raspbian (par exemple [
 
 Préparez le câble entre le minitel et le raspberry (cf. schema ci dessous).
 
-<img src="https://github.com/truillet/Projets/blob/master/minitel/schemas/schema_minitel_rpi.png" width="200" alt="montage du cable Minitel / GPIO">
+<img src="https://github.com/truillet/Projets/blob/master/minitel/schemas/schema_minitel_rpi.png" width="400" alt="montage du cable Minitel / GPIO">
