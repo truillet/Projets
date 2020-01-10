@@ -15,3 +15,4 @@ Soudez les 3 fils pour le minitel à une prise DIN 5 broches et branchez les bro
 
 <img src="https://github.com/truillet/Projets/blob/master/minitel/schemas/GPIO_RPi.png" width="500" alt="GPIO Raspberry">
 
+Il reste ensuite à indiquer au Raspberry comment permettre l'accès au terminal via la communication série.
