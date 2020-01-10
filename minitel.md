@@ -17,8 +17,12 @@ Soudez les 3 fils pour le minitel à une prise DIN 5 broches (RX sur la broche 1
 
 Nous devons configurer à chaque branchement du minitel les commandes suivantes (activation du codade ASCII 7 bits et du mode echo) : 
 
-<img src="https://github.com/truillet/Projets/blob/master/minitel/schemas/commandes_minitel.jpg" width="400" alt="commandes du Minitel / GPIO">
+<img src="https://github.com/truillet/Projets/blob/master/minitel/schemas/commandes_minitel.jpg" width="200" alt="commandes du Minitel / GPIO">
 
 
 Il reste ensuite à indiquer au Raspberry comment permettre l'accès au terminal via la communication série.
 Nous allons utiliser le script téléchargeable **(ici)[https://github.com/truillet/Projets/blob/master/minitel/getty_minitel.sh]**. Le script permet de configurer l'encodage des informations (*Nota* : nous utilisons ici une communication à 1200 bauds mais on peut monter à 4800 bauds pour un Minitel 1B et 9600 bauds pour un Minitel 2) et ouvrir un tty sur la liaison série que nous venons de configurer.
+
+**Et voilà !**
+
+<img src="https://github.com/truillet/Projets/blob/master/minitel/photos/RPi0.jpg" width="400" alt="Raspberry branché"> <img src="https://github.com/truillet/Projets/blob/master/minitel/photos/RaspbianOnMinitel.jpg" width="400" alt="Raspi-config sur minitel">
