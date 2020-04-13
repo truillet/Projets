@@ -21,7 +21,7 @@ Nous devons configurer à chaque branchement du minitel les commandes suivantes 
 
 
 Il reste ensuite à indiquer au Raspberry comment permettre l'accès au terminal via la communication série.
-Nous allons utiliser le script téléchargeable **(ici)[https://github.com/truillet/Projets/blob/master/minitel/getty_minitel.sh]**. Le script permet de configurer l'encodage des informations (*Nota* : nous utilisons ici une communication à 1200 bauds mais on peut monter à 4800 bauds pour un Minitel 1B et 9600 bauds pour un Minitel 2) et ouvrir un tty sur la liaison série que nous venons de configurer.
+Nous allons utiliser le script téléchargeable **[ici](https://github.com/truillet/Projets/blob/master/minitel/getty_minitel.sh)**. Le script permet de configurer l'encodage des informations (*Nota* : nous utilisons ici une communication à 1200 bauds mais on peut monter à 4800 bauds pour un Minitel 1B et 9600 bauds pour un Minitel 2) et ouvrir un tty sur la liaison série que nous venons de configurer.
 
 **Et voilà !**
 
