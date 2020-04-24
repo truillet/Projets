@@ -1,4 +1,6 @@
 ### Minitel : un raspberry piloté depuis un minitel (clavier et écran)
+<img src="https://github.com/truillet/Projets/blob/master/minitel/photos/minitel.webp" width="200" alt="Minitel"/>
+
 Pour ce projet, il vous faudra : 
 * un minitel (1B ou 2) équipé d'une prise DIN à l'arrière
 * un peu d'électronique (3 résistances de 10 kOhm, 22 kOhm et 220 kOhm et 1 transistor 2N2222) et de soudure
