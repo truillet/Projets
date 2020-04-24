@@ -27,5 +27,5 @@ Nous allons utiliser le script téléchargeable **[ici](https://github.com/truil
 
 **Et voilà !**
 
-<img src="https://github.com/truillet/Projets/blob/master/minitel/photos/RPi0.jpg" width="250" alt="Raspberry branché"> <img src="https://github.com/truillet/Projets/blob/master/minitel/photos/RaspbianOnMinitel.jpg" width="300" alt="Raspi-config sur minitel">
-<img src="https://github.com/truillet/Projets/blob/master/minitel/photos/minitel.jpg" width="300" alt="Minitel"/>
+<img src="https://github.com/truillet/Projets/blob/master/minitel/photos/RPi0.jpg" width="250" alt="Raspberry branché"> <img src="https://github.com/truillet/Projets/blob/master/minitel/photos/RaspbianOnMinitel.jpg" width="250" alt="Raspi-config sur minitel">
+<img src="https://github.com/truillet/Projets/blob/master/minitel/photos/minitel.jpg" width="250" alt="Minitel"/>
