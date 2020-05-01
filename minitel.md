@@ -29,3 +29,8 @@ Nous allons utiliser le script téléchargeable **[ici](https://github.com/truil
 
 <img src="https://github.com/truillet/Projets/blob/master/minitel/photos/RPi0.jpg" width="250" alt="Raspberry branché"> <img src="https://github.com/truillet/Projets/blob/master/minitel/photos/RaspbianOnMinitel.jpg" width="250" alt="Raspi-config sur minitel">
 <img src="https://github.com/truillet/Projets/blob/master/minitel/photos/minitel.jpg" width="250" alt="Minitel"/>
+
+# sources
+Ce projet n'aurait pas pu voir le jour sans de nombreuses inspirations comme :
+* [ardublog](https://arduino103.blogspot.com/2019/04/utiliser-un-minitel-comme-terminal-pour.html)
+* [Blog de Pila](https://arduiblog.com/2019/04/29/ressuscitez-le-minitel)
