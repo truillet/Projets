@@ -29,5 +29,5 @@ iface wlan0 inet manual
 wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
 ~~~~
 
-ajouter maintenant le contenu du fichier généré dans ~/.cat_installer/cat_supplicant.conf par le script python *eduroam-linux-UdT3PS.py* (cf. [https:/cat.eduroam.org](https:/cat.eduroam.org)) dans /etc/wpa_supplicant/wpa_supplicant.conf
+ajouter maintenant le contenu du fichier généré dans ~/.cat_installer/cat_supplicant.conf par le script python *eduroam-linux-UdT3PS.py* (cf. [https://cat.eduroam.org](https://cat.eduroam.org)) dans /etc/wpa_supplicant/wpa_supplicant.conf
 
