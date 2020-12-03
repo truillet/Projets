@@ -1,5 +1,5 @@
 ## Raspberry Pi
-### Mettre le Raspberry à l'heure
+### mettre le Raspberry à l'heure
 Si vous souhaitez positionner manuellement la date de votre Raspberry (qui ne possède pas d'horloge par défaut), utilisez la commande suivante :
 
 ~~~~
@@ -15,6 +15,19 @@ sudo /etc/init.d/ntp start
 ~~~~	
 
 ### eduroam avec RPi
-ouvrir le fichier /etc/network/interface
+ouvrir le fichier /etc/network/interface et ajouter les lignes suivantes
 
+~~~~
+auto lo
+iface lo inet loopback
+
+iface eth0 inet manual
+wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
+
+allow-hotplug wlan0
+iface wlan0 inet manual
+wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
+~~~~
+
+ajouter maintenant le contenu du fichier généré dans ~/.cat_installer/cat_supplicant.conf par le script python *eduroam-linux-UdT3PS.py* (cf. https:/cat.eduroam.org) dans /etc/wpa_supplicant/wpa_supplicant.conf
 
