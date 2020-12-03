@@ -14,5 +14,7 @@ sudo ntpd -q-g
 sudo /etc/init.d/ntp start
 ~~~~	
 
+### eduroam avec RPi
+ouvrir le fichier /etc/network/interface
 
 
