@@ -1,4 +1,4 @@
-## Raspberry Pi
+## Raspberry Pi "tips"
 ### mettre le Raspberry à l'heure
 Si vous souhaitez positionner manuellement la date de votre Raspberry (qui ne possède pas d'horloge par défaut), utilisez la commande suivante :
 
