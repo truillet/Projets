@@ -15,9 +15,12 @@ sudo /etc/init.d/ntp start
 ~~~~	
 
 ### eduroam avec RPi
-ouvrir le fichier /etc/network/interface et ajouter les lignes suivantes
+ouvrir le fichier /etc/network/interfaces et ajouter les lignes suivantes
 
 ~~~~
+# Include files from /etc/network/interfaces.d:
+source-directory /etc/network/interfaces.d
+
 auto lo
 iface lo inet loopback
 
@@ -29,5 +32,21 @@ iface wlan0 inet manual
 wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
 ~~~~
 
-ajouter maintenant le contenu du fichier généré dans ~/.cat_installer/cat_supplicant.conf par le script python *eduroam-linux-UdT3PS.py* (cf. [https://cat.eduroam.org](https://cat.eduroam.org)) dans /etc/wpa_supplicant/wpa_supplicant.conf
+exécuter le script python *eduroam-linux-UdT3PS.py* (téléchargé depuis  [https://cat.eduroam.org](https://cat.eduroam.org))
 
+ouvrir le fichier /etc/wpa_supplicant/wpa_supplicant.conf et complétez avec les lignes suivantes
+
+~~~~
+network={
+ssid="eduroam"
+key_mgmt=WPA-EAP
+pairwise=CCMP
+eap=PEAP TTLS
+identity="YOUR-IDENTITY"
+anonymous_identity="anonymous@univ-tlse3.fr"
+password="YOUR-PASSWORD"
+phase1="peaplabel=0"
+phase2="auth=MSCHAPV2"
+priority=999
+}
+~~~
