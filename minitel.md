@@ -17,7 +17,7 @@ Soudez les 3 fils pour le minitel à une prise DIN 5 broches (RX sur la broche 1
 
 <img src="https://github.com/truillet/Projets/blob/master/minitel/schemas/GPIO_RPi.png" width="500" alt="GPIO Raspberry"> <img src="https://github.com/truillet/Projets/blob/master/minitel/schemas/prise_DIN.png" width="300" alt="Prise DIN 5 broches">
 
-Nous devons configurer à chaque branchement du minitel les commandes suivantes (activation du codade ASCII 7 bits et du mode echo) : 
+Nous devons configurer à chaque branchement du minitel les commandes suivantes (activation du codage ASCII 7 bits et du mode echo) : 
 
 <img src="https://github.com/truillet/Projets/blob/master/minitel/schemas/commandes_minitel.jpg" width="150" alt="commandes du Minitel / GPIO">
 
